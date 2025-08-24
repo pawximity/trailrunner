@@ -3,7 +3,7 @@ import os
 import shutil
 import subprocess
 
-from trailrunner.config import RunError
+from trailrunner.error import RunError
 
 
 def load_data(args):

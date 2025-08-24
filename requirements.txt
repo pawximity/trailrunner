@@ -1,2 +1,8 @@
+iniconfig==2.1.0
+packaging==25.0
 platformdirs==4.3.8
+pluggy==1.6.0
+Pygments==2.19.2
+pytest==8.4.1
+-e git+https://github.com/pawximity/trailrunner.git@0b0ddaa846291dc810670ece71bc99d5173bd4b0#egg=trailrunner
 yapf==0.43.0

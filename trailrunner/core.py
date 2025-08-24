@@ -2,7 +2,7 @@ import shlex
 import sys
 import time
 
-from trailrunner.config import RunError
+from trailrunner.error import RunError
 from trailrunner.loader import load_data
 
 

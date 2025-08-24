@@ -8,8 +8,8 @@ Usage:
 """
 import argparse
 
-from trailrunner.config import TrailRunnerError
 from trailrunner.core import process_args
+from trailrunner.error import TrailRunnerError
 
 
 def trail():
