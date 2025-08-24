@@ -1,0 +1,9 @@
+[project]
+name = "trailrunner"
+version = "0.1.0"
+description = "CLI tool to import large SQL scripts into Postgres"
+authors = [{ name = "trailrunner", email = "chrisloverchio+gis@gmail.com" }]
+dependencies = []
+
+[project.scripts]
+pawgrate = "trailrunner.__main__:main"
