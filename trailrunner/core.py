@@ -6,7 +6,6 @@ from trailrunner.config import RunError
 from trailrunner.loader import load_data
 
 
-
 def process_args(args):
     """Processes the given args.
 
