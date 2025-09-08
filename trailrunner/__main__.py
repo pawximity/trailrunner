@@ -1,5 +1,5 @@
 """
-trailrunner - A lightweight CLI wrapper for psql.
+trailrunner - a lightweight CLI wrapper for psql.
 
 This tool runs SQL scripts in Postgres with minimal overhead.
 
@@ -33,7 +33,7 @@ def main():
 
 def arg_parser():
     parser = argparse.ArgumentParser(
-        description="trailrunner: lightweight SQL script runner for Postgres")
+        description="trailrunner: lightweight SQL script runner for postgres")
     commands_subparser = parser.add_subparsers(title="commands",
                                                dest="command",
                                                required=True)
